@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Digite seu nome aqui..." required="true" id="nome" />
+    </form>
+    <form>
+        <label for="Email">Email</label>
+        <input type="text" placeholder="Digite seu email aqui..." required="true" id="email" />
+    </form>
+    <form>
+        <label for="Descrição">Descrição</label>
+        <textarea id="Descrição" name="Descrição" placeholder="Fale mais sobre você aqui..." required="true" cols="10" rows="5"></textarea>
+    </form>
+    <form>
+        <label for="Módulo">Módulo</label>
+        <select id="Módulo">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+         </select>
+    </form>
+    <form>
+        <label for="Senha">Senha</label>
+        <input type="password" placeholder="Digite sua senha aqui..." required="true" id="senha" />
+    </form>
+        <!--Como a senha é confirmada de acordo com a senha colocada em cima?-->
+    <form>
+        <label for="Confirmar senha">Confirmar Senha</label>
+        <input type="password" placeholder="Digite sua senha novamente aqui..." required="true" id="confirmar senha" />
+    </form>
+    <form>
+        <p>Deseja receber as novidades em seu e-mail?</p>
+            <label for="Sim">Sim</label>
+            <input type="radio" name="inputExample" id="name">
+            <label for="Não">Não</label>
+            <input type="radio" name="inputExample" id="name">
+            <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
